@@ -21,19 +21,27 @@ App Svelte para gerenciamento de combate de rpg de mesa no setting de Vincaeros 
 ## Como executar
 
 1. Clone o repositório:
+   ```bash
    git clone https://github.com/Lucca-Bellini/Vincaeros-Combat-Tracker.git
    cd Vincaeros-Combat-Tracker
+   ```
 
-2. Instale as dependências:
+3. Instale as dependências:
+   ```bash
    npm install
+   ```
 
-3. Execute o servidor de desenvolvimento:
+5. Execute o servidor de desenvolvimento:
+   ```bash
    npm run dev
+   ```
 
-4. Acesse http://localhost:5173 no navegador.
+7. Acesse http://localhost:5173 no navegador.
 
 Para gerar a versão de produção:
+   ```bash
    npm run build
+   ```
 Os arquivos estáticos ficarão na pasta `dist`.
 
 ## Features do Svelte utilizadas
