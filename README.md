@@ -2,6 +2,8 @@
 
 App Svelte para gerenciamento de combate de rpg de mesa no setting de Vincaeros (D&D5e Homebrew).
 
+**Disponível online em:** [https://vincaeros-combat-tracker.vercel.app/](https://vincaeros-combat-tracker.vercel.app/)
+
 ## Finalidade e features principais
 
 - Adicionar/remover combatentes com nome, AC e HP máximo
@@ -15,10 +17,10 @@ App Svelte para gerenciamento de combate de rpg de mesa no setting de Vincaeros 
 ## Dependências
 
 - Svelte 5
-- SortableJS
-- Vite
+- SortableJS (drag-and-drop)
+- Vite (build tool)
 
-## Como executar
+## Como executar localmente
 
 1. Clone o repositório:
    ```bash
@@ -26,17 +28,17 @@ App Svelte para gerenciamento de combate de rpg de mesa no setting de Vincaeros 
    cd Vincaeros-Combat-Tracker
    ```
 
-3. Instale as dependências:
+2. Instale as dependências:
    ```bash
    npm install
    ```
 
-5. Execute o servidor de desenvolvimento:
+3. Execute o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
 
-7. Acesse http://localhost:5173 no navegador.
+4. Acesse http://localhost:5173 no navegador.
 
 Para gerar a versão de produção:
    ```bash
